@@ -1,11 +1,11 @@
 package com.docfin.platform.model;
 
 
+import com.docfin.platform.DbSettings;
 import org.springframework.data.annotation.*;
+import org.springframework.data.annotation.Version;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
@@ -13,6 +13,7 @@ import java.util.Date;
 /**
  * Created by amit on 8/16/16.
  */
+@MappedSuperclass
 public abstract class AbstractEntity {
 
     @Id

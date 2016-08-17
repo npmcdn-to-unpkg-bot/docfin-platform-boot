@@ -1,4 +1,4 @@
-package com.docfin.platform.model;
+package com.docfin.platform;
 
 /**
  * Created by amit on 8/16/16.
